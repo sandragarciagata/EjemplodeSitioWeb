@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="es_ES">
+  <head>
+    <meta charset="utf-8" />
+
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <title>Maquetación de Web con CSS3</title>
+  </head>
+
+  <body>
+    <!--Cabecera-->
+    <header id="header">
+      <div id="logo">
+        <img src="img/logo.png" alt="logotipo" />
+      </div>
+      <a href="index.html">
+        <h1>SITIO EJEMPLO EN CSS3</h1>
+      </a>
+    </header>
+    <!--Fin Cabecera-->
+
+    <!--Menú de Navegación-->
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Contenido</a>
+        </li>
+        <li>
+          <a href="#">Requerimientos</a>
+        </li>
+        <li>
+          <a href="#">Lenguajes</a>
+          <ul>
+            <li>
+              <a href="#">HTML</a>
+            </li>
+            <li>
+              <a href="#">CSS</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Frameworks</a>
+          <ul>
+            <li>
+              <a href="#">LESS</a>
+            </li>
+            <li>
+              <a href="#">SASS</a>
+            </li>
+            <li>
+              <a href="#">Bootstrap</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Proyectos</a>
+        </li>
+        <li>
+          <a href="#"> El Instructor</a>
+        </li>
+        <li>
+          <a href="#">Reseñas</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Fin de Menú de Navegación-->
+
+    <!--Contenido central -->
+    <!--Barra lateral -->
+    <div id="content">
+      <aside id="aside">
+        <!--Primer widget barra lateral: login-->
+        <div class="widget" id="login">
+          <h3>Entrar a la web</h3>
+          <form>
+            <label>Usuario:</label>
+            <input type="text" />
+
+            <label>Contraseña:</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+          <!--Zona de enlaces primer widget-->
+          <a href="#">Zona de alumnos</a>
+          <a href="#">Zona del profesor</a>
+          <a href="#">Acceso a calificaciones</a>
+        </div>
+        <!--Segundo widget barra lateral-->
+        <div class="widget" id="aulavirtual1">
+          <h3 class="blue">Aula Virtual 1</h3>
+          <form>
+            <label>Nombre de usuario:</label>
+            <input type="text" />
+
+            <label>Contraseña:</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+        <!--Tercero widget barra lateral-->
+        <div class="widget" id="aulavirtual2">
+          <h3 class="red">Aula Virtual 2</h3>
+          <form>
+            <label>Nombre de usuario:</label>
+            <input type="text" />
+
+            <label>Contraseña:</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+        <!--Widget de enlaces-->
+        <div class="widget" id="login">
+          <h3>Enlaces de interés</h3>
+          <ul>
+            <li><a href="#">Master en Javascript</a></li>
+            <li><a href="#">Master en PHP</a></li>
+            <li><a href="#">Master en Frameworks JS</a></li>
+            <li><a href="#">Master en webs full-stack</a></li>
+            <li>
+              <a href="https://github.com/sandragarciagata">Perfil en Github</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--Inicio de las secciones-->
+      <div id="sections">
+        <section id="frontend">
+          <span class="stickers">
+            <img class="stickerOne" src="img/scotch.png" alt="Pegatina" />
+            <img class="stickerTwo" src="img/scotch.png" alt="Pegatina" />
+          </span>
+          <h2 class="titulo">Noticias de front-end</h2>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+        </section>
+
+        <section id="backend">
+          <span class="stickers">
+            <img class="stickerOne" src="img/scotch.png" alt="Pegatina" />
+            <img class="stickerTwo" src="img/scotch.png" alt="Pegatina" />
+          </span>
+          <h2 class="titulo red">Noticias de back-end</h2>
+          <!--observa que hay dos clases-->
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+        </section>
+
+        <section id="noticias">
+          <span class="stickers">
+            <img class="stickerOne" src="img/scotch.png" alt="Pegatina" />
+            <img class="stickerTwo" src="img/scotch.png" alt="Pegatina" />
+          </span>
+          <h2 class="titulo orange">Noticias del sitio</h2>
+          <!--Dos clases combinadas-->
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              <a href="#">Título de la entrada</a>
+              Este es el contenido de la entrada de ejemplo.
+            </p>
+            <span class="date">[20-02-2020. Sandra García Gata]</span>
+          </article>
+        </section>
+      </div>
+
+      <!--Fin de las secciones-->
+      <aside id="frase">
+        <p>Frase del día: A quien madruga, Dios le da café.</p>
+        <a href="#">Leer más frases</a>
+      </aside>
+
+      <div class="clearfix"></div>
+      <!--Clase para limpiar los flotados-->
+
+      <div id="history">
+        <a href="#">[Ver histórico de noticias]</a>
+      </div>
+    </div>
+    <!--Fin del contenido central-->
+    
+    <div class="clearfix"></div>
+    <footer id="footer">
+      <p>
+        &copy; desarrollado por Sandra García Gata en el Master CSS de Victor
+        Robles Web
+      </p>
+      <p>
+        Visita
+        <a href="https://github.com/sandragarciagata">mi perfil en GitHub</a>
+        y
+        <a href="https://victorroblesweb.com/academy">
+          los cursos de Víctor Robles</a
+        >
+      </p>
+    </footer>
+    
+  </body>
+</html>
